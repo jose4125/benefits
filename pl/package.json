@@ -1,48 +1,14 @@
 {
-  "name": "benefits",
+  "name": "benefits-client",
   "version": "1.0.0",
-  "description": "prodigious benefits",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "babel-preset-es2015": "^6.9.0",
-    "babel-preset-react": "^6.5.0",
-    "babel-register": "^6.9.0",
-    "babelify": "^7.3.0",
-    "bootstrap-sass": "^3.3.6",
-    "browserify": "^13.0.1",
-    "chalk": "^1.1.3",
-    "del": "^2.2.0",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-csso": "^2.0.0",
-    "gulp-express": "^0.3.5",
-    "gulp-jscs": "^3.0.2",
-    "gulp-jshint": "^2.0.1",
-    "gulp-livereload": "^3.8.1",
-    "gulp-load-plugins": "^1.2.4",
-    "gulp-nodemon": "^2.1.0",
-    "gulp-notify": "^2.2.0",
-    "gulp-sass": "^2.3.1",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-uglify": "^1.5.3",
-    "gulp-util": "^3.0.7",
-    "jshint": "^2.9.2",
-    "node-sass": "^3.7.0",
-    "require-dir": "^0.3.0",
-    "run-sequence": "^1.2.1",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
-  },
-  "dependencies": {
-    "express": "^4.13.4",
-    "nodemon": "^1.9.2",
-    "react": "^15.1.0",
-    "react-dom": "^15.1.0"
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-react": "^6.23.0",
+    "standard": "^10.0.0",
+    "webpack": "^2.3.2"
   }
 }
